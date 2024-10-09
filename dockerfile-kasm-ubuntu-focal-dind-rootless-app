@@ -133,7 +133,7 @@ ENV TWOFAUTH_PATH=/var/www/html
 
 RUN composer install
 
-COPY entrypoint.sh /usr/local/bin/entrypoint.sh
+#COPY entrypoint.sh /usr/local/bin/entrypoint.sh
 #COPY wait-for-it.sh /usr/local/bin/wait-for-it.sh
 
 RUN set -eux; \
