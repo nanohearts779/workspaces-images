@@ -57,7 +57,7 @@ USER 1000
 CMD ["--tail-log"]
 
 # 0. Install debian buster-slim with php and apache2 (official php image)
-FROM php:7.4-apache
+FROM php:8.1-apache
 
 # 1. Install development packages and clean up apt cache.
 RUN apt-get update && apt-get install -y \
